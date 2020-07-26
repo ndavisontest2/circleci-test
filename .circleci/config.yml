@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: sleep 30
     environment:
-      FOO: bar';\
+      FOO: bar'";\
 workflows:
   run-now:
     jobs:
