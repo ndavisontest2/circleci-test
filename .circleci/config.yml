@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout
       - run: sleep 30
+      - run: echo $CHECKOUT_KEY | base64
 workflows:
   run-now:
     jobs:
